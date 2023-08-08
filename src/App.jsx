@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import DogCard from './DogCard'
 
+import Cow from './CowCard'
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -13,7 +15,7 @@ function App() {
       <DogCard></DogCard>
       <DogCard />
       <DogCard />
-      
+      <Cow />
 
     </>
   )
