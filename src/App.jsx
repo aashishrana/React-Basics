@@ -11,11 +11,18 @@ import Card from './component/Card'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  let [details, setDetails] = useState("dhiraj");
+
+  const handleClick = () => {
+    details = setDetails("kunal")
+
+  }
 
   return (
     <>
-      <h1>Hello</h1>
+      <h1>{details}</h1>
+
+      <button onClick={handleClick}>Click me</button>
       <DogCard></DogCard>
       <DogCard />
       <DogCard />
