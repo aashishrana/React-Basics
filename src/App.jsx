@@ -7,6 +7,8 @@ import {Image , DogCard} from './DogCard'
 import Cow from './CowCard'
 
 import MyH from './component/MyH'
+import Card from './component/Card'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +21,9 @@ function App() {
       <DogCard />
       <Cow />
       <MyH></MyH>
+      <Card name="Aashish" email="a@pw.live"></Card>
+      <Card name="Rana" email="a@pw.live"></Card>
+  
 
     </>
   )
