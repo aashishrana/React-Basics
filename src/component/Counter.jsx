@@ -15,7 +15,7 @@ function Counter() {
 
         <h3>My new Counter componet</h3>
 
-        count x : {x};
+        count x : {x}  is {(x % 2 == 0) ? "even" : "odd"};
 
         <button onClick={() => setx(x + 1)}>Inc</button>
         <button onClick={() => setx(x - 1)}>Decr</button>
